@@ -13,13 +13,13 @@ public class JumpTrigger : MonoBehaviour
 
     void OnTriggerEnter()
     {
-     
+
         GetComponent<BoxCollider>().enabled = false;
         TheDoor.GetComponent<Animation>().Play("JumpDoorAnim");
         DoorBang.Play();
         TheZombie.SetActive(true);
         StartCoroutine(PlayJumpMusic());
-        
+
 
     }
 
