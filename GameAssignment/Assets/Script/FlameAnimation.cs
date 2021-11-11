@@ -23,14 +23,14 @@ public class FlameAnimation : MonoBehaviour
 		if (LightMode == 1)
 		{
 			FlameLight.GetComponent<Animation>().Play("TorchAnim1");
-		}
-		if (LightMode == 2)
-		{
-			FlameLight.GetComponent<Animation>().Play("TorchAnim2");
-		}
-		if (LightMode == 3)
-		{
-			FlameLight.GetComponent<Animation>().Play("TorchAnim3");
+		//}
+		//if (LightMode == 2)
+		//{
+		//	FlameLight.GetComponent<Animation>().Play("TouchAnim2");
+		//}
+		//if (LightMode == 3)
+		//{
+		//	FlameLight.GetComponent<Animation>().Play("TorchAnim3");
 		}
 		yield return new WaitForSeconds(0.99f);
 		LightMode = 0;
