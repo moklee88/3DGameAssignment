@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class BigClassRoom : MonoBehaviour
+public class SmallRoom : MonoBehaviour
 {
 	public float TheDistance;
 	public GameObject ActionDisplay;
 	public GameObject ActionText;
-	public GameObject TheDoor1;
-	public GameObject TheDoor2;
+	public GameObject TheDoor;
 	public AudioSource CreakSound;
 	public GameObject ExtraCross;
 
@@ -22,7 +21,7 @@ public class BigClassRoom : MonoBehaviour
 	{
 		if (TheDistance <= 2)
 		{
-			ExtraCross.SetActive(true);
+			ExtraCross.SetActive(false);
 			ActionDisplay.SetActive(true);
 			ActionText.SetActive(true);
 		}
@@ -33,8 +32,7 @@ public class BigClassRoom : MonoBehaviour
 				this.GetComponent<BoxCollider>().enabled = false;
 				ActionDisplay.SetActive(false);
 				ActionText.SetActive(false);
-				TheDoor1.GetComponent<Animation>().Play("LeftDoorAnim");
-				TheDoor2.GetComponent<Animation>().Play("RightDoorAnim");
+				TheDoor.GetComponent<Animation>().Play("BottomDoorAnim");
 				CreakSound.Play();
 			}
 		}
