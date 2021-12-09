@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.unity.collab-proxy": {
-      "version": "1.13.5",
+      "version": "1.15.4",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -27,7 +27,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.11",
+      "version": "2.0.12",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -57,22 +57,41 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.core": {
+<<<<<<< HEAD
       "version": "10.6.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.ugui": "1.0.0"
+=======
+      "version": "10.7.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0"
+>>>>>>> f6b838fce8b7ab89eb75f77e3f5e9fdb31783470
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.universal": {
+<<<<<<< HEAD
       "version": "10.6.0",
+=======
+      "version": "10.7.0",
+>>>>>>> f6b838fce8b7ab89eb75f77e3f5e9fdb31783470
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.mathematics": "1.1.0",
+<<<<<<< HEAD
         "com.unity.render-pipelines.core": "10.6.0",
         "com.unity.shadergraph": "10.6.0"
+=======
+        "com.unity.render-pipelines.core": "10.7.0",
+        "com.unity.shadergraph": "10.7.0"
+>>>>>>> f6b838fce8b7ab89eb75f77e3f5e9fdb31783470
       },
       "url": "https://packages.unity.com"
     },
@@ -93,11 +112,19 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.shadergraph": {
+<<<<<<< HEAD
       "version": "10.6.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.render-pipelines.core": "10.6.0",
+=======
+      "version": "10.7.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.render-pipelines.core": "10.7.0",
+>>>>>>> f6b838fce8b7ab89eb75f77e3f5e9fdb31783470
         "com.unity.searcher": "4.3.2"
       },
       "url": "https://packages.unity.com"
