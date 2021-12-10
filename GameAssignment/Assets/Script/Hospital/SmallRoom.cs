@@ -32,11 +32,10 @@ public class SmallRoom : MonoBehaviour
 				this.GetComponent<BoxCollider>().enabled = false;
 				ActionDisplay.SetActive(false);
 				ActionText.SetActive(false);
-<<<<<<< HEAD
+
 				TheDoor.GetComponent<Animation>().Play("FirstDoorOpenAnim");
-=======
+
 				TheDoor.GetComponent<Animation>().Play("BottomDoorAnim");
->>>>>>> f6b838fce8b7ab89eb75f77e3f5e9fdb31783470
 				CreakSound.Play();
 			}
 		}
